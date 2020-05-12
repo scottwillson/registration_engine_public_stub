@@ -1,0 +1,8 @@
+.envrc
+.DS_Store
+.gitmodules
+.ruby-gemset
+.ruby-version
+log/*.log
+tmp/*
+tmp/**/*
