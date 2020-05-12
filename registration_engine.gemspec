@@ -13,5 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
 
+  spec.add_dependency "activemerchant"
   spec.add_dependency "rails", "~> 6.0.3"
+  spec.add_dependency "stripe"
 end
