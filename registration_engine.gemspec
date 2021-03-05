@@ -15,6 +15,10 @@ Gem::Specification.new do |spec|
 
   # 1.119.0 breaks tests with frozen string error
   spec.add_dependency "activemerchant", "1.118.0"
-  spec.add_dependency "rails", "~> 6.0.3"
+  spec.add_dependency "rails", "~> 6.1"
   spec.add_dependency "stripe"
+
+  spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "rubocop-performance"
+  spec.add_development_dependency "rubocop-rails"
 end
